@@ -1312,6 +1312,16 @@ section {
   background: #fff;
 }
 
+.contact .info.hours {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+.contact .info.hours {
+    margin:0;
+}
+}
+
 .contact .info i {
   font-size: 20px;
   color: #f18a6b;
