@@ -28,9 +28,9 @@ function procesarDatos() {
     datos.productos.forEach(producto => {
         html += "<div class='col-lg-6 menu-item filter-specialty'>";
         html += "<div class='menu-content'>";
-        html += "<a href='#'>" + producto.nombre + "</a><span>$" + producto.precio + "</span>";
+        html += "<a href='#'>" + producto.nombre + "</a><span>&#x20a1;" + producto.precio + "</span>";
         html += "</div>";
-        html += "<div class='menu-ingredients'>" + producto.ingredientes + "</div>";
+        html += "<div class='menu-ingredients'>" + producto.descripcion + "</div>";
         html += "</div>";
     });
     menuContainer.innerHTML= "";
