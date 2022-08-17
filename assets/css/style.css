@@ -3,16 +3,6 @@ body {
   color: #444444;
 }
 
-a {
-  text-decoration: none;
-  color: #f18a6b;
-}
-
-a:hover {
-  color: #822179;
-  text-decoration: none;
-}
-
 h1,
 h2,
 h3,
@@ -533,68 +523,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background-color: #f2f1ef;
-  min-height: 40px;
-  margin-top: 120px;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 70px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 24px;
-  font-weight: 300;
-  margin: 0;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs h2 {
-    margin: 0 0 10px 0;
-  }
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li+li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
-
-/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about {
@@ -772,10 +700,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Whu Us
---------------------------------------------------------------*/
-
 @media (max-width: 768px) {
   section.why-us {
     padding:0;
@@ -826,16 +750,6 @@ section.why-us {
 .why-us .box:hover h4,
 .why-us .box:hover p {
   color: #fff;
-}
-
-@media (max-width: 768px) {
-  section.why-us {
-    padding: 25px 25px 0;
-  }
-}
-
-.mainContent {
-  padding: 25px 0;
 }
 
 /*--------------------------------------------------------------
@@ -984,7 +898,7 @@ section.why-us {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/background1.jpg) center center no-repeat;
+  background: url(../img/background3.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1528,9 +1442,4 @@ section.why-us {
 
 #footer .credits {
   font-size: 13px;
-}
-
-#map {
-  width: 100%;
-  height: 300px;
 }
